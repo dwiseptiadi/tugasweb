@@ -1,0 +1,55 @@
+/* Reset beberapa gaya default */
+* {
+    box-sizing: border-box; /* Mengatur model kotak */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif; /* Mengatur font */
+    background-color: #ffffff; /* Latar belakang putih */
+    color: #000000; /* Warna teks hitam */
+}
+
+/* Kontainer untuk halaman kontak */
+.contact-container {
+    text-align: center; /* Memusatkan teks dalam kontainer */
+    padding: 50px; /* Padding dalam kontainer */
+}
+
+/* Gaya untuk judul */
+h1 {
+    margin-bottom: 20px; /* Jarak bawah judul */
+    font-size: 2.5em; /* Ukuran font untuk judul */
+}
+
+/* Gaya untuk tautan kontak */
+.contact-links {
+    display: flex; /* Mengatur tampilan flex untuk tautan */
+    justify-content: center; /* Memusatkan tautan secara horizontal */
+    flex-direction: column; /* Mengatur agar tautan ditumpuk secara vertikal */
+}
+
+.contact-link {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #000000; /* Warna teks hitam */
+    background-color: #f0f0f0; /* Latar belakang abu-abu terang */
+    padding: 15px; /* Padding dalam tautan */
+    margin: 10px 0; /* Margin antara tautan */
+    border-radius: 5px; /* Sudut membulat pada tautan */
+    font-size: 1.2em; /* Ukuran font untuk tautan */
+    transition: background-color 0.3s; /* Efek transisi pada latar belakang */
+}
+
+/* Efek hover pada tautan */
+.contact-link:hover {
+    background-color: #000000; /* Latar belakang hitam saat hover */
+    color: #ffffff; /* Teks putih saat hover */
+}
+
+/* Gaya untuk ikon */
+.contact-link i {
+    margin-right: 10px; /* Jarak kanan untuk ikon */
+    color: #000000; /* Warna ikon hitam */
+}

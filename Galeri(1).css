@@ -1,0 +1,63 @@
+/* Reset beberapa gaya default */
+* {
+    box-sizing: border-box; /* Mengatur model kotak */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+/* Gaya untuk body */
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur font */
+    background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+    color: #333; /* Warna teks */
+}
+
+/* Kontainer untuk halaman galeri */
+.container {
+    max-width: 1200px; /* Maksimal lebar kontainer */
+    margin: 50px auto; /* Margin atas/bawah 50px, tengah */
+    padding: 20px; /* Padding dalam kontainer */
+    background-color: #fff; /* Latar belakang putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+/* Gaya untuk header galeri */
+header {
+    text-align: center; /* Memusatkan teks dalam header */
+    margin-bottom: 30px; /* Jarak bawah untuk header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Ukuran font untuk judul */
+}
+
+header p {
+    font-size: 1.2em; /* Ukuran font untuk deskripsi */
+    color: #666; /* Warna deskripsi */
+}
+
+/* Gaya untuk galeri */
+.gallery {
+    display: grid; /* Menggunakan grid untuk tata letak gambar */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Membuat kolom responsif */
+    gap: 15px; /* Jarak antar gambar */
+}
+
+/* Gaya untuk item galeri */
+.gallery-item {
+    overflow: hidden; /* Menghilangkan bagian gambar yang melebihi batas */
+    border-radius: 8px; /* Sudut membulat untuk item */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk item gambar */
+}
+
+.gallery-item img {
+    width: 100%; /* Memastikan gambar mengisi kontainer */
+    height: auto; /* Mempertahankan rasio aspek */
+    transition: transform 0.3s; /* Animasi saat hover */
+}
+
+/* Efek hover pada gambar */
+.gallery-item img:hover {
+    transform: scale(1.05); /* Memperbesar gambar saat hover */
+}

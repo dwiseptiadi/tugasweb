@@ -1,0 +1,87 @@
+/* Gaya untuk body */
+body {
+    font-family: 'Arial', sans-serif; /* Font yang digunakan */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+    color: #333; /* Teks berwarna gelap */
+}
+
+/* Gaya untuk Header */
+header {
+    background-color: #1c1c1c; /* Latar belakang gelap */
+    color: #f2f2f2; /* Teks terang */
+    padding: 20px; /* Padding untuk header */
+    text-align: center; /* Memusatkan teks */
+}
+
+header h1 {
+    margin: 0; /* Menghilangkan margin untuk h1 */
+    font-size: 2.5em; /* Ukuran font untuk judul */
+}
+
+header p {
+    margin: 10px 0; /* Margin untuk deskripsi */
+    font-size: 1.2em; /* Ukuran font untuk deskripsi */
+}
+
+/* Gaya untuk Menu Navigasi */
+nav {
+    background-color: #333; /* Latar belakang menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan untuk menu */
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet */
+    padding: 0; /* Menghilangkan padding */
+    margin: 0; /* Menghilangkan margin */
+    text-align: center; /* Memusatkan item menu */
+}
+
+nav ul li {
+    display: inline-block; /* Menampilkan item secara horizontal */
+    margin: 0 20px; /* Jarak antar item */
+}
+
+nav ul li a {
+    color: #f2f2f2; /* Teks menu berwarna terang */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 15px 20px; /* Padding untuk tautan */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk latar belakang dan teks */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Mengubah warna latar belakang saat hover */
+    color: white; /* Mengubah warna teks saat hover */
+}
+
+/* Gaya untuk Konten Utama */
+section {
+    padding: 40px 20px; /* Padding untuk konten utama */
+    text-align: center; /* Memusatkan teks dalam section */
+    background-color: #fff; /* Latar belakang putih untuk konten */
+    margin: 20px auto; /* Margin atas dan bawah */
+    max-width: 800px; /* Maksimal lebar konten */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+section h2 {
+    color: #333; /* Warna teks untuk subjudul */
+    font-size: 2em; /* Ukuran font untuk subjudul */
+}
+
+section p {
+    line-height: 1.6; /* Jarak antar baris untuk keterbacaan yang lebih baik */
+}
+
+/* Gaya untuk Footer */
+footer {
+    background-color: #1c1c1c; /* Latar belakang footer */
+    color: #f2f2f2; /* Teks terang */
+    text-align: center; /* Memusatkan teks */
+    padding: 15px 0; /* Padding atas dan bawah */
+    position: relative; /* Posisi relatif untuk footer */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    width: 100%; /* Memastikan footer lebar 100% */
+}
